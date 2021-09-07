@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./main.css">
+    <title>Encrypt</title>
+</head>
+<body>
+
+    <div class="inputs">
+        <input type="text" value="Hello, World!" class="encrypt-input-field">
+        <input type="range" min="0" max="60" value="20" class="encrypt-input-field-slider">
+    </div>
+
+    <div class="encrypt-decrypt">
+        <div class="encrypt-input-slider-label">
+            <p class="encrypt-input-label">Key 1: hello,world!</p>
+            <p class="encrypt-input-label-slider">Key 2: 30</p>
+        </div>
+
+        <div class="encrypt">
+            <input type="text" class="encrypt-input" placeholder="Enter to Encrypt">
+            <p class="encrypt-output"></p>
+        </div>
+
+        <div class="decrypt">
+            <input type="text" class="decrypt-input" placeholder="Enter to Decrypt">
+            <p class="decrypt-output"></p>
+        </div>
+    </div>
+</body>
+</html>
